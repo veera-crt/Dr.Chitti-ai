@@ -17,7 +17,7 @@ async function sendMessage() {
   userInput.value = "";
 
   try {
-    const response = await fetch("http://localhost:3000/api/disease-query", {
+    const response = await fetch("https://dr-chitti-ai.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query }),
