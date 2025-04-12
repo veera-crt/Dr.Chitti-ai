@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const chatMessages = document.getElementById('chat-messages');
     const chatForm = document.getElementById('chat-form');
@@ -139,4 +139,4 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Focus input on load
     userInput.focus();
-  });
+  });*/
