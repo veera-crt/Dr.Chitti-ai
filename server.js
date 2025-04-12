@@ -1,4 +1,4 @@
-require('dotenv').config();
+/*require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { createClient } = require('@supabase/supabase-js');
@@ -177,4 +177,4 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {
   logger.info(`Server running on port ${PORT}`);
-});
+});'''
